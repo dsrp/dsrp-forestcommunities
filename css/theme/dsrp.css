@@ -287,14 +287,26 @@ body {
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
 
-div.main-title {
-  width: 20em;
-  padding-bottom: 2ex; }
-  div.main-title h1, div.main-title h2 {
-    text-align: right;
+.reveal {
+  font-weight: 500; }
+  .reveal ul, .reveal h1, .reveal h2, .reveal h3, .reveal p {
     opacity: 0.77; }
-  div.main-title h1 {
-    padding-top: 1ex;
-    margin-bottom: 0; }
-  div.main-title h2 {
+  .reveal ul {
+    margin-bottom: 1em; }
+  .reveal h2 {
     color: #00adef; }
+  .reveal div.main-title {
+    width: 20em; }
+    .reveal div.main-title h1, .reveal div.main-title h2 {
+      text-align: right; }
+    .reveal div.main-title h1 {
+      padding-top: 1ex;
+      margin-bottom: 0; }
+  .reveal div.references {
+    padding-top: 1.5ex; }
+  .reveal div.references-small {
+    font-size: 70%;
+    position: relative;
+    bottom: -12ex; }
+    .reveal div.references-small a {
+      font-size: inherit; }

@@ -57,21 +57,43 @@ section.has-dark-background {
 
 $mainTitleWidth: 8em;
 
-div.main-title {
-    width: 20em;
+.reveal {
+    ul, h1, h2, h3, p { opacity: 0.77; }
 
-    h1, h2 {
-        text-align: right;
-        opacity: 0.77;
+    font-weight: 500;
+
+    ul {
+        margin-bottom: 1em;
     }
-    h1 {
-        padding-top: 1ex;
-        margin-bottom: 0;
-    }
+
     h2 {
         color: $dsrpBlue;
     }
 
-    padding-bottom: 2ex;
+    div.main-title {
+        width: 20em;
+
+        h1, h2 {
+            text-align: right;
+        }
+        h1 {
+            padding-top: 1ex;
+            margin-bottom: 0;
+        }
+    }
+    div.references {
+        padding-top: 1.5ex;
+    }
+
+    div.references-small {
+        font-size: 70%;
+        position: relative;
+        bottom: -12ex;
+
+        a {
+            font-size: inherit;
+        }
+    }
+
 }
 
