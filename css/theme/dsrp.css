@@ -310,3 +310,13 @@ body {
     bottom: -12ex; }
     .reveal div.references-small a {
       font-size: inherit; }
+  .reveal .bigone {
+    font-size: 7em; }
+  .reveal .black {
+    color: black; }
+  .reveal .upper {
+    text-transform: uppercase; }
+  .reveal .twocolumns {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2; }
