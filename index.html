@@ -30,7 +30,7 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.18.1/URI.min.js"></script>
 		<script>
 			$(function () {
-				if (window.location.href.search('#local-ipfs')) {
+				if (window.location.search.search('local-ipfs')) {
 					console.log('Using local IPFS');
 
 					$('section').each(function(i, e) {
