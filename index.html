@@ -24,6 +24,35 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+
+		<!-- Local IPFS resolution -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.slim.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.18.1/URI.min.js"></script>
+		<script>
+			$(function () {
+				if (window.location.href.search('#local-ipfs')) {
+					console.log('Using local IPFS');
+
+					$('section').each(function(i, e) {
+						var el = $(this);
+						var video_url = el.attr('data-background-video');
+
+						if (video_url) {
+							var parsed_url = URI(video_url);
+
+							if (parsed_url.host() == 'gateway.ipfs.io') {
+								console.log('Found IPFS URL, replacing');
+								// IPFS URL, replace!
+								parsed_url.protocol('http');
+								parsed_url.host('localhost:8080');
+								el.attr('data-background-video', parsed_url.href());
+							}
+						}
+					});
+			  }
+
+			});
+		</script>
 	</head>
 	<body>
 		<div class="reveal">
