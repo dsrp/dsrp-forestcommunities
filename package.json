@@ -1,8 +1,8 @@
 {
-  "name": "reveal.js",
+  "name": "dsrp-control",
   "version": "3.6.0",
-  "description": "The HTML Presentation Framework",
-  "homepage": "http://revealjs.com",
+  "description": "Out of Control; collapse engineering.",
+  "homepage": "https://github.com/dsrp/dsrp-control",
   "subdomain": "revealjs",
   "main": "js/reveal.js",
   "scripts": {
@@ -11,13 +11,13 @@
     "build": "grunt"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
+    "name": "Mathijs de Bruin",
+    "email": "mathijs@dsrp.eu",
+    "web": "http://dsrp.eu"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "https://github.com/dokterbob/dsrp-introduction.git"
   },
   "engines": {
     "node": ">=4.0.0"
@@ -39,5 +39,6 @@
     "mustache": "^2.3.0",
     "socket.io": "^1.7.3"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "private": true
 }
