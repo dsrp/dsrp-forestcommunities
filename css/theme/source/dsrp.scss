@@ -35,7 +35,7 @@ $heading3Size: 1.3em;
 $heading4Size: 1.0em;
 
 section.has-dark-background {
-	&, h1, h2, h3, h4, h5, h6 {
+	&, h1, h2, h3, h4, h5, h6, a {
 		color: #fff;
 	}
 }
@@ -107,6 +107,15 @@ $mainTitleWidth: 8em;
 
     .black {
         color: black;
+    }
+
+    .white {
+        color: white;
+
+        a {
+            color: white;
+        }
+
     }
 
     .upper {

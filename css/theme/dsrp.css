@@ -3,7 +3,7 @@
  *
  * By Hakim El Hattab, http://hakim.se
  */
-section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
+section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6, section.has-dark-background a {
   color: #fff; }
 
 /*********************************************
@@ -295,6 +295,10 @@ body {
     font-size: 7em; }
   .reveal .black {
     color: black; }
+  .reveal .white {
+    color: white; }
+    .reveal .white a {
+      color: white; }
   .reveal .upper {
     text-transform: uppercase; }
   .reveal .twocolumns {
