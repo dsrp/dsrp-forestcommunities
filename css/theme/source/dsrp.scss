@@ -95,6 +95,12 @@ $mainTitleWidth: 8em;
         }
     }
 
+    div.references-tiny {
+        position: fixed;
+        bottom: 1ex;
+        font-size: 12pt;
+    }
+
     .bigone {
         font-size: 7em;
     }

@@ -287,6 +287,10 @@ body {
     bottom: -12ex; }
     .reveal div.references-small a {
       font-size: inherit; }
+  .reveal div.references-tiny {
+    position: fixed;
+    bottom: 1ex;
+    font-size: 12pt; }
   .reveal .bigone {
     font-size: 7em; }
   .reveal .black {
