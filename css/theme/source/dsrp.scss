@@ -117,5 +117,8 @@ $mainTitleWidth: 8em;
         opacity: 1;
     }
 
+    li.active {
+        color: $dsrpBlue;
+    }
 }
 
