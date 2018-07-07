@@ -40,6 +40,23 @@ section.has-dark-background {
 	}
 }
 
+.blue {
+    color: $dsrpBlue !important;
+}
+
+.red {
+    color: $dsrpRed !important;
+}
+
+.green {
+    color: green !important;
+}
+
+.reveal section .noborder {
+    border: none;
+    box-shadow: none;
+}
+
 // Background generator
 @mixin bodyBackground() {
     background: url("../../img/network-background.jpg");
