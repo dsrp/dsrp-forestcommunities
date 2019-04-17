@@ -301,12 +301,12 @@ body {
     .reveal div.main-title h1 {
       padding-top: 1ex;
       margin-bottom: 0; }
+  .reveal div.references ul, .reveal div.references-small ul, .reveal div.references-tiny ul {
+    text-align: center; }
+    .reveal div.references ul li, .reveal div.references-small ul li, .reveal div.references-tiny ul li {
+      list-style-type: none; }
   .reveal div.references {
     padding-top: 1.5ex; }
-    .reveal div.references ul {
-      text-align: center; }
-      .reveal div.references ul li {
-        list-style-type: none; }
   .reveal div.references-small {
     font-size: 70%;
     position: relative;

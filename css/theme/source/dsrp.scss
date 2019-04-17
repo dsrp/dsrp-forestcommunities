@@ -98,15 +98,19 @@ $mainTitleWidth: 8em;
             margin-bottom: 0;
         }
     }
-    div.references {
-        padding-top: 1.5ex;
 
+    div.references, div.references-small, div.references-tiny {
         ul {
             text-align: center;
             li {
                 list-style-type: none;
             }
         }
+
+    }
+
+    div.references {
+        padding-top: 1.5ex;
     }
 
     div.references-small {
