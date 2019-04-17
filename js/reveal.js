@@ -1157,8 +1157,8 @@
 
 		// Reset the prior background state in case this is not the
 		// initial sync
-		slide.classList.remove( 'has-dark-background' );
-		slide.classList.remove( 'has-light-background' );
+		// slide.classList.remove( 'has-dark-background' );
+		// slide.classList.remove( 'has-light-background' );
 
 		element.removeAttribute( 'data-loaded' );
 		element.removeAttribute( 'data-background-hash' );
