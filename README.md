@@ -10,7 +10,7 @@ http://communities.talks.dsrp.eu/
 ### Previous talks
 
 * [Out of Control; talk on feedback, complexity and nature's resilience.](https://github.com/dsrp/dsrp-control)
-* [Introductionary presentation to the Decentralized Society Research Project.](http://intro.talks.dsrp.eu)
+* [Introductionary presentation to the Decentralized Society Research Project.](https://github.com/dsrp/dsrp-introduction)
 
 ### License
 
