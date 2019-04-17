@@ -1,13 +1,21 @@
-# Out of Control; talk on feedback, complexity and nature's resilience
+# Communities of Trees and People
+### If there is a future worth living, what would it look like?
+Slides for the talk during [Hack the Earth 2019](https://calafou.org/ca/content/programa-hack-earth-2019-futurotop%C3%ADas) at the ecoindustrial post-capitalist colony [Calafou](https://calafou.org/).
 
-Let's not talk about whether climate change is real. Let's not expect a magic bullet to fix it. Let's not ponder the collapse of the systems that sustain the Western world, for too long.
+As part of the [Decentralized Society Research Project](https://dsrp.eu) and [Sol Nascente](https://solnascente.eu), it explores the potential resilience of ecologically, economically and socially integrated communities to impending [extinction-level events](https://rebellion.earth/the-truth/the-emergency/).
 
-Rather, let's explore how nature deals with unpredictable change, how it evolves and adapts and even gains from disorder. As opposed to tight control loops, nature goes with 'what is' and, using remarkably little energy, uses it to replicate and sustain
-lifeforms and information.
+### Slides
+http://communities.talks.dsrp.eu/
 
-As part of the [Decentralized Society Research Project](https://dsrp.eu), I'm exploring future scenario's where groups of people might choose to opt out of collective self-destruction.
+### Previous talks
 
-In this talk, I hope to explore design principles that might increase the likelihood for (parts of) civilization to survive. I'm very much open to your input and hope to leave about half the time for discussion.
+* [Out of Control; talk on feedback, complexity and nature's resilience.](https://github.com/dsrp/dsrp-control)
+* [Introductionary presentation to the Decentralized Society Research Project.](http://intro.talks.dsrp.eu)
 
-View slides: http://control.talks.dsrp.eu/
+### License
+
+* Reveal.js is licensed under the MIT license.
+* The talk itself is licensed under the [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) license.
+
+### Credits
 Created with [Reveal.js](https://github.com/hakimel/reveal.js).
