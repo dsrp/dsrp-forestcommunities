@@ -1,8 +1,8 @@
 {
-  "name": "dsrp-control",
-  "version": "3.6.0",
-  "description": "Out of Control; collapse engineering.",
-  "homepage": "https://github.com/dsrp/dsrp-control",
+  "name": "dsrp-forestcommunities",
+  "version": "0.1",
+  "description": "Communities of Trees and People or: if there is a future worth living, what would it look like?",
+  "homepage": "https://github.com/dsrp/dsrp-forestcommunities",
   "subdomain": "revealjs",
   "main": "js/reveal.js",
   "scripts": {
