@@ -100,6 +100,13 @@ $mainTitleWidth: 8em;
     }
     div.references {
         padding-top: 1.5ex;
+
+        ul {
+            text-align: center;
+            li {
+                list-style-type: none;
+            }
+        }
     }
 
     div.references-small {

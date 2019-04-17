@@ -303,6 +303,10 @@ body {
       margin-bottom: 0; }
   .reveal div.references {
     padding-top: 1.5ex; }
+    .reveal div.references ul {
+      text-align: center; }
+      .reveal div.references ul li {
+        list-style-type: none; }
   .reveal div.references-small {
     font-size: 70%;
     position: relative;
